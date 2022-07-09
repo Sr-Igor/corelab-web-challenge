@@ -1,11 +1,13 @@
-export interface IVehicle {
-  id: number;
-  name: string;
-  description: string;
-  plate: string;
-  isFavorite: boolean;
-  year: number;
-  color: string;
-  price: number;
-  createdAt: Date;
+export type Vehicle = {
+    id: string
+    title: string
+    brand: string
+    price: number
+    description: string
+    year: number
+    licensePlate: string
+    color: string
+    colorBox: string
+    colorText: string
+    favorite: boolean
 }
